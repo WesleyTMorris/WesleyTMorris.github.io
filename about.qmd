@@ -1,5 +1,4 @@
 ---
-title: "About"
 resources: Morris_W_CV_PSL_2023.pdf
 image: APPAM.jpeg
 about:
@@ -19,7 +18,7 @@ about:
       text: Email
       href: mailto:wtmorris@email.unc.edu
 ---
-
+## About
 Wesley Morris is a 4th-year Ph.D. Student in Education Policy at the University of North Carolina at Chapel Hill, on the job market in Fall 2024. His research focuses on the early career teacher pipeline and understanding the effects of policies to improve conditions in the teacher labor market and teacher quality.  
 
 ## Education
