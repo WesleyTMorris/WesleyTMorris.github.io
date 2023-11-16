@@ -1,8 +1,9 @@
 ---
 title: "Wesley Morris"
+resources: Morris_W_CV_PSL_2023.pdf
+image: Headshot 1.jpeg
 about:
   template: jolla
-  image: Headshot 1.jpeg
   image-shape: round
   links:
     - icon: file-text
