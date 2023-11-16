@@ -1,11 +1,20 @@
 ---
-title: "WesleyTMorris.github.io"
+title: "Wesley Morris"
+about:
+  template: jolla
+  image: Headshot 1.jpeg
+  image-shape: round
+  links:
+    - icon: file-text
+      text: CV
+      href: Morris_W_CV_PSL_2023.pdf
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/wesleytmorris
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/wesley-morris-mpp-72246a84/
+    - icon: envelope
+      text: Email
+      href: mailto:wtmorris@email.unc.edu
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```

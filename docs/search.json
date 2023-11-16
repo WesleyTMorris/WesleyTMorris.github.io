@@ -2,15 +2,57 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "WesleyTMorris.github.io",
+    "title": "Wesley T Morris",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "title: “Wesley Morris” about: template: Jolla image: Wesley Morris.PNG links: - icon: file-text text: CV href: Morris_W_CV_PSL_2023.pdf - icon: twitter text: Twitter href: https://twitter.com/wesleytmorris - icon: linkedin text: Linkedin href: https://www.linkedin.com/in/wesley-morris-mpp-72246a84/ - icon: envelope text: Email href: mailto:wtmorris@email.unc.edu"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Wesley Morris is a 4th-year Ph.D. Student in Education Policy at the University of North Carolina at Chapel Hill, on the job market in Fall 2024. His research focuses on the early career teacher pipeline and understanding the effects of policies to improve conditions in the teacher labor market and teacher quality."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "I do research"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Wesley Morris",
+    "section": "Education",
+    "text": "Education\nUniversity of North Carolina | Chapel Hill, NC\nPhD in Education | Aug 2020 - Present\nVanderbilt University | Nashville, TN.\nMPP in Education Policy | Aug 2018 - May 2020\nWake Forest University | Winston-Salem, NC\nBS in Mathematics | Aug 2012 - May 2016"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Wesley Morris",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Wesley Morris",
+    "section": "",
+    "text": "Wesley Morris is a Ph.D. Student at the University of North Carolina at Chapel Hill, School of Education, on the job market in academic year 2024-2025. His research focuses on the early career teacher pipeline and understanding the effects of policies to improve conditions in the teacher labor market and teacher quality."
+  },
+  {
+    "objectID": "index.html#learn-more",
+    "href": "index.html#learn-more",
+    "title": "Wesley Morris",
+    "section": "Learn More",
+    "text": "Learn More"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nUniversity of North Carolina at Chapel Hill | Chapel Hill, NC\nPh.D. in Education | Aug 2020 - Present\nVanderbilt University | Nashville, TN.\nM.P.P. in Education Policy | August 2018 - May 2020\nWake Forest University | Winston-Salem, NC\nB.S. in Mathematics | August 2012 - May 2016"
   }
 ]

@@ -3,16 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "WesleyTMorris.github.io"
+  title: "Wesley T Morris"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+      - href: research.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
 
