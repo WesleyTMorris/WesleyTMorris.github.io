@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Wesley T Morris"
+  title: "Wesley T. Morris"
   navbar:
     left:
       - href: index.qmd
