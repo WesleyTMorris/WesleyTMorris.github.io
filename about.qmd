@@ -1,8 +1,9 @@
 ---
 title: "About"
+resources: Morris_W_CV_PSL_2023.pdf
+image: APPAM.jpeg
 about:
   template: marquee
-  image: APPAM.jpeg
   image-shape: round
   links:
     - icon: file-text
