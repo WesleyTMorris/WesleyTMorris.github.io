@@ -4,15 +4,4 @@ resources: Morris_W_CV_PSL_2023.pdf
 editor: visual
 ---
 
-```{=html}
-<style>
-Morris_W_CV_PSL_2023.pdf {
-  max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border: 10px solid rgba(0,0,0,.2);
-    margin: 0;
-}
-</style>
-```
 {{< pdf Morris_W_CV_PSL_2023.pdf width=100% height=1030 >}}
