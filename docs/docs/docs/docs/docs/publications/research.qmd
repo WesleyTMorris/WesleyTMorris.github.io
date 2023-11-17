@@ -1,0 +1,6 @@
+---
+title: "Research"
+listing: default
+  contents:
+    - "publications/*.pdf"
+---

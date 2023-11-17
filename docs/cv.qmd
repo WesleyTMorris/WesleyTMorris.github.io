@@ -1,0 +1,7 @@
+---
+title: "Curricculum Vitae"
+resources: Morris_W_CV_PSL_2023.pdf
+editor: visual
+---
+
+{{< pdf Morris_W_CV_PSL_2023.pdf width=100% height=1030 >}}
