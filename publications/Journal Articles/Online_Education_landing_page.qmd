@@ -1,0 +1,23 @@
+---
+date: "July 15 2023"
+date-format: "MMMM YYYY"
+title: "The Expanding Landscape of Online Education: Who Engages and How They Fare"
+image: chicagofedseal.svg
+categories: "Working Paper"
+author: "Lisa Barrow, Wesley Morris, and Lauren Sartain"
+editor: visual
+about:
+  template: solana
+  image-shape: rounded
+  links:
+    - icon: file-text
+      text: Working Paper
+      href: https://www.chicagofed.org/publications/working-papers/2022/2022-52
+---
+
+## Abstract
+
+Online course offerings at traditional universities have become common, though some question if the modality can adequately substitute for an in-person experience. We explore undergraduate online course enrollment at a large public four-year system and the relationships between taking online courses and student outcomes. Online enrollment nearly doubled from 2012 to 2019 when almost 40 percent took at least one class online. Female students and older students were especially likely to take online classes. Overall students were both more likely to earn As and more likely to fail in online courses relative to in-person courses, but semester GPAs were higher in terms when students took at least one class online than when they took all in-person classes. Importantly, taking higher shares of courses online is associated with increased degree completion with the largest benefits for younger students and male students.
+
+## Citation
+Barrow, L., Morris, W., & Sartain, L. “The Expanding Landscape of Online Education: Who Engages and How They Fare.” Prepared for David Card’s festschrift.

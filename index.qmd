@@ -19,3 +19,4 @@ about:
       text: Email
       href: mailto:wtmorris@email.unc.edu
 ---
+Education Policy Researcher
