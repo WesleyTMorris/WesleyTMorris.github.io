@@ -8,7 +8,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
+      - text: About
+        menu:
+          - href: about.qmd
+            text: About Me
+          - href: cv.qmd
+            text: Curriculum Vitae
       - href: research.qmd
 
 format:
