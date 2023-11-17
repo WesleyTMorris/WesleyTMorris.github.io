@@ -3,10 +3,9 @@ date: "July 15 2023"
 date-format: "MMMM YYYY"
 resources: chicagofedseal.svg
 title: "The Expanding Landscape of Online Education: Who Engages and How They Fare"
-image: chicagofedseal.svg
 categories: "Working Paper"
 author: "Lisa Barrow, Wesley Morris, and Lauren Sartain"
-editor: visual
+image: chicagofedseal.svg
 about:
   template: solana
   image-shape: rounded
