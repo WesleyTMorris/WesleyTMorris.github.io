@@ -15,12 +15,11 @@ website:
           - href: cv.qmd
             text: Curriculum Vitae
       - href: research.qmd
+  google-analytics: "G-4S82ZPX7QZ"
 
 format:
   html:
     theme: lux
     css: styles.css
     toc: true
-
-
 
