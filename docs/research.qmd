@@ -1,0 +1,35 @@
+---
+title: "Research"
+date-format: "MMMM YYYY"
+listing:
+  - id: journal 
+    type: table
+    fields:
+      - date
+      - title
+      - author
+    contents:
+      - "publications/Journal Articles/*_landing_page.qmd"
+    table-hover: true
+    table-striped: true
+  - id: briefs
+    type: table
+    fields:
+      - date
+      - title
+      - author
+    contents:
+      - "publications/Briefs/*_landing_page.qmd"
+    table-hover: true
+    table-striped: true
+---
+---
+## Journal Articles
+
+:::{#journal}
+:::
+
+## General Audience Publications
+
+:::{#briefs}
+:::
