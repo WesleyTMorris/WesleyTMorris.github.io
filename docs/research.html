@@ -35,7 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -99,9 +98,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -168,6 +167,10 @@ gtag('config', 'G-4S82ZPX7QZ', { 'anonymize_ip': true});
     <a class="dropdown-item" href="./cv.html" rel="" target="">
  <span class="dropdown-text">Curriculum Vitae</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./S&amp;A.html" rel="" target="">
+ <span class="dropdown-text">Service &amp; Awards</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item">
@@ -188,7 +191,6 @@ gtag('config', 'G-4S82ZPX7QZ', { 'anonymize_ip': true});
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
-   
   <ul>
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link active" data-scroll-target="#journal-articles">Journal Articles</a></li>
   <li><a href="#general-audience-publications" id="toc-general-audience-publications" class="nav-link" data-scroll-target="#general-audience-publications">General Audience Publications</a></li>
@@ -196,28 +198,21 @@ gtag('config', 'G-4S82ZPX7QZ', { 'anonymize_ip': true});
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-marquee">
+  <div class="about-image-container">
+  </div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Research</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-</header>
+</header> <main class="content" id="quarto-document-content">
 
 <hr>
 <section id="journal-articles" class="level2">
-<h2 class="anchored" data-anchor-id="journal-articles">Journal Articles</h2>
+<h2 data-anchor-id="journal-articles">Journal Articles</h2>
 <div id="listing-journal" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -244,7 +239,6 @@ gtag('config', 'G-4S82ZPX7QZ', { 'anonymize_ip': true});
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-
 <table class="quarto-listing-table table table-striped table-hover">
 <thead>
 <tr>
@@ -285,7 +279,6 @@ gtag('config', 'G-4S82ZPX7QZ', { 'anonymize_ip': true});
 </td>
 </tr>
 </tbody>
-
 </table>
 <div class="listing-no-matching d-none">
 No matching items
@@ -293,32 +286,73 @@ No matching items
 </div>
 </section>
 <section id="general-audience-publications" class="level2">
-<h2 class="anchored" data-anchor-id="general-audience-publications">General Audience Publications</h2>
+<h2 data-anchor-id="general-audience-publications">General Audience Publications</h2>
 <div id="listing-briefs" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-briefs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-briefs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-
 <table class="quarto-listing-table table table-striped table-hover">
 <thead>
 <tr>
 <th>
-Date
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
 </th>
 <th>
-Title
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
 <th>
-Author
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
 </th>
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-categories="Research Brief" data-listing-date-sort="1586923200000" data-listing-file-modified-sort="1703101981463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Learning from the Best" data-listing-filename-sort="mentors_matter_landing_page.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">April 2020</span>
+</td>
+<td>
+<a href="./publications/Briefs/mentors_matter_landing_page.html" class="title listing-title">Learning from the Best</a>
+</td>
+<td>
+<span class="listing-author">Wesley Morris, Matthew Ronfeldt, Emanuele Bardelli, and Matthew Truwit</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Research Brief" data-listing-date-sort="1589515200000" data-listing-file-modified-sort="1703102344243" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Teacher Perceptions of Evaluation Fairness and Burden" data-listing-filename-sort="TN_Eval_Satisfaction_landing_page.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-date">May 2020</span>
+</td>
+<td>
+<a href="./publications/Briefs/TN_Eval_Satisfaction_landing_page.html" class="title listing-title">Teacher Perceptions of Evaluation Fairness and Burden</a>
+</td>
+<td>
+<span class="listing-author">Wesley Morris</span>
+</td>
+</tr>
 </tbody>
-
 </table>
 <div class="listing-no-matching d-none">
 No matching items
@@ -326,10 +360,30 @@ No matching items
 </div>
 
 
-
 </section>
-
-</main> <!-- /main -->
+</main> 
+    <div class="about-footer"><div class="about-links">
+  <a href="/Morris_W_CV_PSL_2023.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-file-text"></i>
+     <span class="about-link-text">CV</span>
+  </a>
+  <a href="https://twitter.com/wesleytmorris" class="about-link" rel="" target="">
+    <i class="bi bi-twitter"></i>
+     <span class="about-link-text">Twitter</span>
+  </a>
+  <a href="https://www.linkedin.com/in/wesley-morris-mpp-72246a84/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">Linkedin</span>
+  </a>
+  <a href="mailto:wtmorris@email.unc.edu" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
+</div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -350,13 +404,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

@@ -1,0 +1,27 @@
+---
+date: "April 15 2020"
+date-format: "MMMM YYYY"
+resources: mentors matter.png
+title: "Learning from the Best"
+categories: "Research Brief"
+author: "Wesley Morris, Matthew Ronfeldt, Emanuele Bardelli, and Matthew Truwit"
+image: mentors matter.png
+about:
+  template: solana
+  image-shape: rounded
+  links:
+    - icon: file-text
+      text: Full Text
+      href: https://peabody.vanderbilt.edu/tera/teachers-and-leaders/mentors-matter/
+---
+
+## Summary
+
+This brief examines whether having a more instructionally effective clinical mentor matters, and what the state, districts, and EPPs can do to ensure that student teaching experiences ready future teachers. Drawing on research from a partnership, led by Matthew Ronfeldt of the University of Michigan, and program leaders at the Tennessee Department of Education and several EPPs in Tennessee, we uncover three key findings:
+*Pre-service teachers with more instructionally effective clinical mentors perform better during their first year as measured by observation and student growth scores, feel more prepared, and report more frequent and higher-quality coaching.
+*Serving as a clinical mentor does not negatively impact teachers’ evaluation scores.
+*When the state provides districts with lists recommending specific teachers they should target to serve as clinical mentors, they recruit substantially more effective teachers and, as a result, the pre-service candidates those teachers mentor feel more prepared for the classroom.
+
+## Citation
+
+Morris, W., Ronfeldt, M., Bardelli, E., & Truwit, M., "Learning from the Best" Tennessee Education Research Alliance

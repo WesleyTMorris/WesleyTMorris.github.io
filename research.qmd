@@ -22,6 +22,22 @@ listing:
       - "publications/Briefs/*_landing_page.qmd"
     table-hover: true
     table-striped: true
+about:
+  template: marquee
+  image-shape: round
+  links:
+    - icon: file-text
+      text: CV
+      href: Morris_W_CV_PSL_2023.pdf
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/wesleytmorris
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/wesley-morris-mpp-72246a84/
+    - icon: envelope
+      text: Email
+      href: mailto:wtmorris@email.unc.edu
 ---
 ---
 ## Journal Articles

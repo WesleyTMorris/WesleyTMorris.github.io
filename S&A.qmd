@@ -1,0 +1,45 @@
+---
+title: "Service & Awards"
+format: html
+editor: visual
+about:
+  template: marquee
+  image-shape: round
+  links:
+    - icon: file-text
+      text: CV
+      href: Morris_W_CV_PSL_2023.pdf
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/wesleytmorris
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/wesley-morris-mpp-72246a84/
+    - icon: envelope
+      text: Email
+      href: mailto:wtmorris@email.unc.edu
+---
+
+### Community Engagement Fellow
+
+##### UNC Center for Public Service, 2022
+
+[Learn More](https://ed.unc.edu/2022/02/28/doctoral-students-wesley-morris-william-zahran-named-community-engagement-fellows/)
+
+### Education Policy Academy
+
+##### American Enterprise Institute, 2023
+
+[Learn More](https://www.aei.org/education-policy-academy/)
+
+### President, Graduate Student Association
+
+##### UNC School of Education, 2023-24
+
+[Learn More](https://ed.unc.edu/current-students/student-organizations/)
+
+### Vice-President, Graduate Student Association
+
+##### UNC School of Education, 2022-23
+
+[Learn More](https://ed.unc.edu/current-students/student-organizations/)
