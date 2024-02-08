@@ -2,6 +2,22 @@
 title: "Curricculum Vitae"
 resources: Morris_W_CV_PSL_2023.pdf
 editor: visual
+about:
+  template: marquee
+  image-shape: round
+  links:
+    - icon: file-text
+      text: CV
+      href: Morris_W_CV_PSL_2023.pdf
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/wesleytmorris
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/wesley-morris-mpp-72246a84/
+    - icon: envelope
+      text: Email
+      href: mailto:wtmorris@email.unc.edu
 ---
 
 {{< pdf Morris_W_CV_PSL_2023.pdf width=100% height=1030 >}}

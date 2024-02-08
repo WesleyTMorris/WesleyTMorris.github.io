@@ -14,6 +14,8 @@ website:
             text: About Me
           - href: cv.qmd
             text: Curriculum Vitae
+          - href: S&A.qmd
+            text: Service & Awards
       - href: research.qmd
   google-analytics: "G-4S82ZPX7QZ"
 
