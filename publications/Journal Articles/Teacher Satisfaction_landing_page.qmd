@@ -11,7 +11,7 @@ about:
   image-shape: rounded
   links:
     - icon: file-text
-      text: Full Text (coming soon)
+      text: Full Text
 ---
 
 ## Abstract
@@ -20,4 +20,4 @@ Nationally, teachers have experienced major changes to how their performance is 
 
 ## Citation
 
-Sartain, L., & Morris, W. "Are Teachers Satisfied with Their Evaluations? The Importance of Teaching Context and Trends over Time" Prepared for David Card's festschrift.
+Sartain, L., & Morris, W. T. (2024). Are Teachers Satisfied With Their Evaluations? The Importance of Teaching Context and Trends Over Time. AERA Open, 10. https://doi.org/10.1177/23328584231221539

@@ -1,15 +1,15 @@
 ---
 title: "Wesley T. Morris"
 resources: Morris_W_CV_PSL_2023.pdf
-image: new_headshot.png
+image: headshot.png
 about:
-  template: jolla
-  image-shape: round
+  template: trestles
+  image-shape: rounded
   links:
     - icon: file-text
       text: CV
       href: Morris_W_CV_PSL_2023.pdf
-    - icon: mortorboard
+    - icon: mortarboard
       text: Google Scholar
       href: https://scholar.google.com/citations?hl=en&user=ktYcC8MAAAAJ&view_op=list_works&authuser=5&gmla=AH70aAWVyVJkXi7NWJQBqNzgLmUIHMp1BeJhLZbRPnf2S7CC718HviNud1FttDOMRthIlc1Uk9nKmh6UqikZp6jzrJmJ3KDwsfBwqg
     - icon: twitter-x
@@ -22,4 +22,18 @@ about:
       text: Email
       href: mailto:wtmorris@email.unc.edu
 ---
-Education Policy Researcher
+## About Me
+
+Wesley Morris is a Ph.D. Student in Education Policy at the University of North Carolina at Chapel Hill. His research focuses on understanding the early career teacher pipeline and the effects of policies to improve conditions in the teacher labor market and teacher quality. Wesley uses   
+
+## Education
+
+University of North Carolina | Chapel Hill, NC  
+Ph.D. in Education | Expected May 2025  
+
+Vanderbilt University | Nashville, TN.  
+M.P.P. in Education Policy | May 2020  
+
+Wake Forest University | Winston-Salem, NC  
+B.S. in Mathematics | May 2016 
+

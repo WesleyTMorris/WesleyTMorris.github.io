@@ -7,21 +7,24 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - text: About
+        text: About Me
+      - text: CV
         menu:
-          - href: about.qmd
-            text: About Me
           - href: cv.qmd
             text: Curriculum Vitae
           - href: S&A.qmd
             text: Service & Awards
-      - href: research.qmd
+      - text: Research
+        menu: 
+          - href: research.qmd
+            text: Publications
+          - text: Research Statement
+      
   google-analytics: "G-4S82ZPX7QZ"
 
 format:
   html:
     theme: lux
     css: styles.css
-    toc: true
+    toc: false
 

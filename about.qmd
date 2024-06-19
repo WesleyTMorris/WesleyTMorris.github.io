@@ -8,7 +8,10 @@ about:
     - icon: file-text
       text: CV
       href: Morris_W_CV_PSL_2023.pdf
-    - icon: twitter
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?hl=en&user=ktYcC8MAAAAJ&view_op=list_works&authuser=5&gmla=AH70aAWVyVJkXi7NWJQBqNzgLmUIHMp1BeJhLZbRPnf2S7CC718HviNud1FttDOMRthIlc1Uk9nKmh6UqikZp6jzrJmJ3KDwsfBwqg
+    - icon: twitter-x
       text: Twitter
       href: https://twitter.com/wesleytmorris
     - icon: linkedin
