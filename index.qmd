@@ -1,6 +1,6 @@
 ---
 title: "Wesley T. Morris"
-resources: Morris_W_CV.pdf
+resources: headshot.png
 image: headshot.png
 about:
   template: trestles
