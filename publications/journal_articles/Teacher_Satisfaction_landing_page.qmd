@@ -12,7 +12,7 @@ about:
   links:
     - icon: file-text
       text: Full Text
-      href: https://www.journals.uchicago.edu/doi/10.1086/728807
+      href: https://journals.sagepub.com/doi/full/10.1177/23328584231221539
 ---
 
 ## Abstract
