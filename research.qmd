@@ -42,13 +42,15 @@ about:
       text: Email
       href: mailto:wtmorris@email.unc.edu
 ---
----
+
+------------------------------------------------------------------------
+
 ## Journal Articles
 
-:::{#journal}
+::: {#journal}
 :::
 
 ## General Audience Publications
 
-:::{#briefs}
+::: {#briefs}
 :::

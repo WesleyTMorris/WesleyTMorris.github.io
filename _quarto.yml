@@ -14,7 +14,7 @@ project:
     - publications/journal_articles/Teacher_Satisfaction_landing_page.qmd
 
 website:
-  title: "Wesley Morris"
+  title: "Wesley T. Morris"
   navbar:
     left:
       - text: About Me
