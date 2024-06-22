@@ -1,6 +1,8 @@
 ---
 title: "Wesley T. Morris"
-resources: headshot.png
+resources: 
+    - headshot.png
+    - Morris_W_CV_PLS_2023.pdf
 image: headshot.png
 about:
   template: trestles
