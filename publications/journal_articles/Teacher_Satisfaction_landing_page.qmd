@@ -1,0 +1,23 @@
+---
+date: "November 15 2023"
+date-format: "MMMM YYYY"
+resources: AERA OPEN.jpeg
+title: "Are Teachers Satisfied with Their Evaluations? The Importance of Teaching Context and Trends over Time"
+categories: "Journal Article"
+author: "Lauren Sartain and Wesley Morris"
+image: AERA OPEN.jpeg
+about:
+  template: solana
+  image-shape: rounded
+  links:
+    - icon: file-text
+      text: Full Text
+---
+
+## Abstract
+
+Nationally, teachers have experienced major changes to how their performance is evaluated. Teacher satisfaction with the evaluation system likely influences whether they will use the evaluation data to make instructional improvements, yet we know little about teachers' perceptions of their evaluations. Using survey data from Chicago Public Schools, we explore teacher satisfaction with the evaluation system and their perceptions of its fairness and accuracy. Sixty percent of teachers reported being satisfied with the district's reformed teacher evaluation. However, satisfaction declined following the implementation of the district's more rigorous evaluation system, driven by tenured teachers' differentially negative impressions. Notably, teacher satisfaction was higher in schools with strong climates, particularly where teachers perceived instructional leadership as effective. These findings underscore the importance of school leaders in the implementation of teacher evaluation policies and suggest that some principals need support fostering school climates focused on instructional improvement and building strong relationships with staff.
+
+## Citation
+
+Sartain, L., & Morris, W. T. (2024). Are Teachers Satisfied With Their Evaluations? The Importance of Teaching Context and Trends Over Time. AERA Open, 10. https://doi.org/10.1177/23328584231221539
