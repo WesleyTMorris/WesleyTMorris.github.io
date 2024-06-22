@@ -1,5 +1,5 @@
 ---
-title: "esearch Statement"
+title: "Research Statement"
 resources: Research_Statement.pdf
 editor: visual
 about:

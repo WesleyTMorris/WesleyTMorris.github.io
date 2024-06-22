@@ -2,7 +2,7 @@
 date: "November 15 2023"
 date-format: "MMMM YYYY"
 resources: AERA OPEN.jpeg
-title: "re Teachers Satisfied with Their Evaluations? The Importance of Teaching Context and Trends over Time"
+title: "Are Teachers Satisfied with Their Evaluations? The Importance of Teaching Context and Trends over Time"
 categories: "Journal Article"
 author: "Lauren Sartain and Wesley Morris"
 image: AERA OPEN.jpeg
