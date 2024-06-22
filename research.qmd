@@ -9,7 +9,7 @@ listing:
       - title
       - author
     contents:
-      - "publications/Journal Articles/*_landing_page.qmd"
+      - "publications/journal_articles/*_landing_page.qmd"
     table-hover: true
     table-striped: true
   - id: briefs
@@ -19,7 +19,7 @@ listing:
       - title
       - author
     contents:
-      - "publications/Briefs/*_landing_page.qmd"
+      - "publications/briefs/*_landing_page.qmd"
     table-hover: true
     table-striped: true
 about:

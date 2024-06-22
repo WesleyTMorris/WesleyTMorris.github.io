@@ -1,6 +1,6 @@
 ---
 title: "Wesley T. Morris"
-resources: Morris_W_CV_PSL_2023.pdf
+resources: Morris_W_CV.pdf
 image: headshot.png
 about:
   template: trestles
@@ -25,15 +25,4 @@ about:
 ## About Me
 
 Wesley Morris is a Ph.D. student in Education Policy at UNC Chapel Hill. His research focuses on the early career teacher pipeline and understanding the effects of policies to improve conditions in the teacher labor market and enhance teacher quality. Wesley's work is particularly concerned with rural schools, examining how policies may lead to unintended outcomes and how policy can be better designed to support students, teachers, and leaders in rural communities. He is dedicated to bridging the research, policy, and practice gap by working closely with policymakers and practitioners to ensure that research is both informed by their expertise and informs the decisions they make every day.
-
-## Education
-
-University of North Carolina | Chapel Hill, NC  
-Ph.D. in Education | Expected May 2025  
-
-Vanderbilt University | Nashville, TN.  
-M.P.P. in Education Policy | May 2020  
-
-Wake Forest University | Winston-Salem, NC  
-B.S. in Mathematics | May 2016 
 
