@@ -8,7 +8,10 @@ project:
     - cv.qmd
     - S&A.qmd
     - research.qmd
-    
+    - publications/briefs/mentors_matter_landing_page.qmd
+    - publications/briefs/TN_Eval_Satisfaction_landing_page.qmd
+    - publications/journal_articles/Online_Education_landing_page.qmd
+    - publications/journal_articles/Teacher_Satisfaction_landing_page.qmd
 
 website:
   title: "Wesley T. Morris"
