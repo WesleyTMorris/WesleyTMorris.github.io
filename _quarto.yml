@@ -2,7 +2,6 @@ project:
   type: website
   output-dir: docs
   render: 
-    - index.qmd
     - research_statement.qmd
     - teaching_statement.qmd
     - cv.qmd
@@ -12,6 +11,7 @@ project:
     - publications/briefs/TN_Eval_Satisfaction_landing_page.qmd
     - publications/journal_articles/Online_Education_landing_page.qmd
     - publications/journal_articles/Teacher_Satisfaction_landing_page.qmd
+    - index.qmd
 
 website:
   title: "Wesley T. Morris"
