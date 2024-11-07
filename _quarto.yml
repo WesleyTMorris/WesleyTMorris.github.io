@@ -22,18 +22,10 @@ website:
         menu:
           - href: S&A.qmd
             text: Service & Awards
-          - href: research_statement.qmd
-            text: Research Statement
-          - href: teaching_statement.qmd
-            text: Teaching Statement
       - text: CV
         href: cv.qmd
       - text: Research
-        menu: 
-          - href: research.qmd
-            text: Publications
-          - href: research_statement.qmd
-            text: Research Statement
+        href: research.qmd
       
   google-analytics: "G-4S82ZPX7QZ"
 
