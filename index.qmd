@@ -15,17 +15,20 @@ about:
     - icon: mortarboard
       text: Google Scholar
       href: https://scholar.google.com/citations?hl=en&user=ktYcC8MAAAAJ&view_op=list_works&authuser=5&gmla=AH70aAWVyVJkXi7NWJQBqNzgLmUIHMp1BeJhLZbRPnf2S7CC718HviNud1FttDOMRthIlc1Uk9nKmh6UqikZp6jzrJmJ3KDwsfBwqg
+    - icon: envelope
+      text: Email
+      href: mailto:wtmorris@email.unc.edu
     - icon: twitter-x
       text: Twitter
       href: https://twitter.com/wesleytmorris
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/wesley-morris-mpp-72246a84/
-    - icon: envelope
-      text: Email
-      href: mailto:wtmorris@email.unc.edu
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/wesleytmorris.bsky.social
 ---
 ## About Me
 
-Wesley Morris is a Ph.D. student in Education Policy at UNC Chapel Hill. His research focuses on the early career teacher pipeline and understanding the effects of policies to improve conditions in the teacher labor market and enhance teacher quality. Wesley's work is particularly concerned with rural schools, examining how policies may lead to unintended outcomes and how policy can be better designed to support students, teachers, and leaders in rural communities. He is dedicated to bridging the research, policy, and practice gap by working closely with policymakers and practitioners to ensure that research is both informed by their expertise and informs the decisions they make every day.
+Wesley Morris recently earned a Ph.D. in Education Policy from UNC Chapel Hill. His research examines the early career teacher pipeline, focusing on how policies affect teacher labor markets and influence teacher quality. He pays particular attention to rural schools, studying how well-intentioned reforms can lead to unintended consequences and how policy can be better designed to support students, educators, and leaders in rural communities. Committed to bridging the gap between research, policy, and practice, Wesley works closely with policymakers and practitioners to ensure his research is both informed by their expertise and supports the tough decisions they make every day.
 
