@@ -1,5 +1,6 @@
 ---
 title: "Wesley T. Morris"
+subtitle:  "Postdoctoral Research Fellow"
 resources: 
     - headshot.png
     - Morris_CV.pdf
@@ -24,11 +25,9 @@ about:
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/wesley-morris-mpp-72246a84/
-    - icon: bluesky
-      text: Bluesky
+    - text: Bluesky
       href: https://bsky.app/profile/wesleytmorris.bsky.social
 ---
 ## About Me
-
-Wesley Morris recently earned a Ph.D. in Education Policy from UNC Chapel Hill. His research examines the early career teacher pipeline, focusing on how policies affect teacher labor markets and influence teacher quality. He pays particular attention to rural schools, studying how well-intentioned reforms can lead to unintended consequences and how policy can be better designed to support students, educators, and leaders in rural communities. Committed to bridging the gap between research, policy, and practice, Wesley works closely with policymakers and practitioners to ensure his research is both informed by their expertise and supports the tough decisions they make every day.
+Wesley Morris is a Postdoctoral Research Fellow in Education Policy at the University of Maryland, College Park. His research examines the early career teacher pipeline, with particular attention to how education policies influence teacher labor markets and affect teacher quality. He is especially interested in rural schools, where he explores how well-intentioned reforms can lead to unintended consequences and how more deliberate policy design can better meet the needs of students, educators, and local leaders. Wesley is committed to bridging the divide between research, policy, and practice, and works closely with policymakers and practitioners to ensure his research is both informed by their experience and applicable to the complex decisions they navigate every day.
 
