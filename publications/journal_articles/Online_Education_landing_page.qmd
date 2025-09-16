@@ -4,7 +4,7 @@ date-format: "MMMM YYYY"
 resources: JOLE_card.jpg
 title: "The Expanding Landscape of Online Education: Who Engages and How They Fare"
 categories: "Journal Article"
-author: "Lisa Barrow, Wesley Morris, and Lauren Sartain"
+author: "Lisa Barrow, Wesley T. Morris, and Lauren Sartain"
 image: JOLE_card.jpg
 about:
   template: solana

@@ -4,7 +4,7 @@ date-format: "MMMM YYYY"
 resources: tera.png
 title: "Teacher Perceptions of Evaluation Fairness and Burden"
 categories: "Research Brief"
-author: "Wesley Morris"
+author: "Wesley T. Morris"
 image: tera.png
 about:
   template: solana

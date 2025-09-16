@@ -3,9 +3,11 @@
     "listing": "/research.html",
     "items": [
       "/publications/journal_articles/Teacher_Satisfaction_landing_page.html",
+      "/publications/journal_articles/TEACH_landing_page.html",
       "/publications/journal_articles/Online_Education_landing_page.html",
       "/publications/briefs/mentors_matter_landing_page.html",
-      "/publications/briefs/TN_Eval_Satisfaction_landing_page.html"
+      "/publications/briefs/TN_Eval_Satisfaction_landing_page.html",
+      "/publications/briefs/online_ed_brief_landing_page.html"
     ]
   }
 ]
