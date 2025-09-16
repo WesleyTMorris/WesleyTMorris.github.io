@@ -1,0 +1,24 @@
+---
+date: "September 15 2025"
+date-format: "MMMM YYYY"
+resources: teach.png
+title: "Financial Aid For Future Educators: Assessing A Federal Grant's Impact On Students' Postsecondary Decisions"
+categories: "Working Paper"
+author: "Wesley T. Morris"
+image: teach.png
+about:
+  template: solana
+  image-shape: rounded
+  links:
+    - icon: file-text
+      text: Full Text
+      href: https://edworkingpapers.com/ai25-1278
+---
+
+## Abstract
+
+Created in 2007, the federal TEACH grant program is a large federal financial aid program that seeks to attract postsecondary students to the teaching profession by providing financial assistance to help pay for a teaching degree. This paper describes the uptake and usage of the federal TEACH grant program across a large four-year public university system. Initial findings suggest that there is considerable room for expanding the number of preservice teachers and institutions utilizing the TEACH grants. While I find no evidence that receiving a TEACH grant reduces student borrowing, these grants do reduce the out-of-pocket costs students face to attend college. Finally, I estimate that students who receive a TEACH grant are approximately 7 percentage points more likely than their peers in the same degree program to continue in and complete teacher education programs. Considering the federal government’s recent interest in reforms to this program, I discuss the implications of this work on potential reform options.
+
+## Citation
+
+Morris, W. T.. (2025). Financial Aid For Future Educators: Assessing A Federal Grant's Impact On Students' Postsecondary Decisions. (EdWorkingPaper: 25-1278). Retrieved from Annenberg Institute at Brown University: https://doi.org/10.26300/tqkk-a126

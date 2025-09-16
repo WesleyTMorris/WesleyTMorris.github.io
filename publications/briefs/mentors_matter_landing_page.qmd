@@ -4,7 +4,7 @@ date-format: "MMMM YYYY"
 resources: mentors matter.png
 title: "Learning from the Best"
 categories: "Research Brief"
-author: "Wesley Morris, Matthew Ronfeldt, Emanuele Bardelli, and Matthew Truwit"
+author: "Wesley T. Morris, Matthew Ronfeldt, Emanuele Bardelli, and Matthew Truwit"
 image: mentors matter.png
 about:
   template: solana

@@ -1,0 +1,46 @@
+---
+date: "April 15 2022"
+date-format: "MMMM YYYY"
+resources: Online_ed_brief.png
+title: "The Expanding Landscape of Online Education A Brief"
+categories: "Research Brief"
+author: "Lisa Barrow, Wesley T. Morris, and Lauren Sartain"
+image: Online_ed_brief.png
+about:
+  template: solana
+  image-shape: rounded
+  links:
+    - icon: file-text
+      text: Full Text
+      href: https://ed.unc.edu/wp-content/uploads/2024/04/Online-Ed-Brief.pdf
+---
+
+## Summary
+
+The COVID-19 pandemic forced colleges and universities across the nation to switch the way
+they delivered instruction from primarily in-person course formats to exclusively online. Now,
+with campuses back to regular business, online and hybrid course formats are here to stay with
+most colleges continuing to offer courses in a variety of modalities to meet student demand.
+Offering courses online may give students greater flexibility and freedom over their schedules,
+especially for students who may be juggling work and/or family responsibilities. On the other
+hand, students may struggle more in online courses than in their in-person courses if the quality
+of instruction is lower or if connections with faculty or peers are more limited.
+In this brief, we highlight findings from our paper, “The Expanding Landscape of Online
+Education: Who Engages and How They Fare,” which describes patterns in online course taking
+among undergraduate students enrolled in any University of North Carolina System institution
+from Fall 2012 to Spring 2020. Specifically, we found the following:
+1. In Fall 2019, nearly 40 percent of UNC System undergraduate students enrolled in at
+least one course online. Online education was expanding, even before the pandemic, and
+student enrollment in online courses varied greatly across institutions and departments.
+2. Female students, older students, and students with lower high school test scores and GPA
+were more likely to enroll in online courses than their peers.
+3. In online courses, students earned both higher and lower grades than in their in-person
+courses, though GPAs were higher when students took at least one course online than
+when they took all courses in person.
+4. Students who took a higher share of credits online were more likely to attain a Bachelor’s
+degree within four or six years compared to similar students who took fewer credits
+online.
+
+## Citation
+
+Barrow, L., Morris, W.T., & Sartain, L, "The Expanding Landscape of Online Education: Who Engages and How They Fare, A Research Brief" North Carolina Education Futures Initiative.

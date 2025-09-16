@@ -4,7 +4,7 @@ date-format: "MMMM YYYY"
 resources: AERA OPEN.jpeg
 title: "Are Teachers Satisfied with Their Evaluations? The Importance of Teaching Context and Trends over Time"
 categories: "Journal Article"
-author: "Lauren Sartain and Wesley Morris"
+author: "Lauren Sartain and Wesley T. Morris"
 image: AERA OPEN.jpeg
 about:
   template: solana
