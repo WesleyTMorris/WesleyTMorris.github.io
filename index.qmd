@@ -19,9 +19,7 @@ about:
     - icon: envelope
       text: Email
       href: mailto:wtmorris@umd.edu
-    - icon: twitter-x
-      text: Twitter
-      href: https://twitter.com/wesleytmorris
+
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/wesleytmorris/
@@ -30,4 +28,48 @@ about:
 ---
 ## About Me
 Wesley Morris is a Postdoctoral Research Fellow in Education Policy at the University of Maryland, College Park. His research examines the early career teacher pipeline, with particular attention to how education policies influence teacher labor markets and affect teacher quality. He is especially interested in rural schools, where he explores how well-intentioned reforms can lead to unintended consequences and how more deliberate policy design can better meet the needs of students, educators, and local leaders. Wesley is committed to bridging the divide between research, policy, and practice, and works closely with policymakers and practitioners to ensure his research is both informed by their experience and applicable to the complex decisions they navigate every day.
+
+---
+
+## In the News
+
+::: {.news-grid}
+
+::: {.news-card}
+::: {.news-outlet}
+National Council on Teacher Quality
+:::
+::: {.news-headline}
+[TEACH Grants Work, Just Not Alone](https://www.nctq.org/research-insights/teach-grants-work-just-not-alone/)
+:::
+::: {.news-date}
+February 2026
+:::
+:::
+
+::: {.news-card}
+::: {.news-outlet}
+UNC School of Education
+:::
+::: {.news-headline}
+[New Study Shows Online Learning Can Boost Equity in Higher Education](https://ed.unc.edu/2022/12/01/new-study-shows-online-learning-can-boost-equity-in-higher-education/)
+:::
+::: {.news-date}
+December 2022
+:::
+:::
+
+::: {.news-card}
+::: {.news-outlet}
+UNC School of Education
+:::
+::: {.news-headline}
+[Doctoral Students Wesley Morris, William Zahran Named Community Engagement Fellows](https://ed.unc.edu/2022/02/28/doctoral-students-wesley-morris-william-zahran-named-community-engagement-fellows/)
+:::
+::: {.news-date}
+February 2022
+:::
+:::
+
+:::
 
