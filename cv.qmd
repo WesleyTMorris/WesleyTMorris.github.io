@@ -1,5 +1,5 @@
 ---
-title: "Curricculum Vitae"
+title: "Curriculum Vitae"
 resources: Morris_CV.pdf
 editor: visual
 about:
@@ -17,10 +17,10 @@ about:
       href: https://twitter.com/wesleytmorris
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/wesley-morris-mpp-72246a84/
+      href: https://www.linkedin.com/in/wesleytmorris/
     - icon: envelope
       text: Email
-      href: mailto:wtmorris@email.unc.edu
+      href: mailto:wtmorris@umd.edu
 ---
 
 {{< pdf Morris_CV.pdf width=100% height=1030 >}}

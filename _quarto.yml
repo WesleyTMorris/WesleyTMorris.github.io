@@ -33,6 +33,9 @@ website:
       
   google-analytics: "G-4S82ZPX7QZ"
 
+  footer:
+    center: "© 2026 Wesley T. Morris · Postdoctoral Research Fellow, University of Maryland"
+
 format:
   html:
     theme: lux
