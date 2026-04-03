@@ -42,33 +42,45 @@ body:has(.home-hero) #title-block-header {
   display: none;
 }
 
+/* --- Homepage full-width layout padding ------------------- */
+
+body:has(.home-hero) main.content {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  max-width: 100%;
+}
+
 /* --- Custom homepage hero --------------------------------- */
 
 .home-hero {
   display: flex;
-  gap: 3rem;
-  align-items: flex-start;
-  padding: 1.5rem 0 2rem;
+  gap: 1.5rem;
+  align-items: stretch;
+  padding: 2rem 0 2rem;
+  border-top: 3px solid #C4952A;
 }
 
+/* Left column: photo + buttons (~20%) */
 .home-sidebar {
-  flex: 0 0 260px;
+  flex: 0 0 20%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 0.75rem;
+  align-items: stretch;
+  align-self: flex-start;
+  gap: 0.6rem;
 }
 
 .home-photo {
   width: 100%;
-  max-width: 280px;
-  border-radius: 8px;
+  border-radius: 6px;
+  display: block;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.12);
 }
 
 .home-links {
   display: flex;
   flex-direction: column;
-  gap: 0.45rem;
+  gap: 0.35rem;
   width: 100%;
 }
 
@@ -77,37 +89,114 @@ body:has(.home-hero) #title-block-header {
   text-align: center;
 }
 
+/* Middle column: name, title, about me (~50%) */
 .home-content {
-  flex: 1;
+  flex: 2;
   min-width: 0;
+  border-left: 1px solid #e8e8e8;
+  padding-left: 1.5rem;
 }
 
 .home-name {
-  font-size: 1.25rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  margin-top: 0.5rem;
-  margin-bottom: 0.1rem;
+  letter-spacing: -0.02em;
+  margin-top: 0;
+  margin-bottom: 0.15rem;
   color: #1a1a1a;
-  text-align: center;
-  white-space: nowrap;
+  line-height: 1.1;
+}
+
+/* Gold rule under name */
+.home-name::after {
+  content: '';
+  display: block;
+  width: 3rem;
+  height: 3px;
+  background-color: #C4952A;
+  margin-top: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 .home-subtitle {
-  color: #666;
-  font-size: 0.85rem;
-  line-height: 1.5;
-  text-align: center;
-  margin-bottom: 0.75rem;
+  color: #555;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
 }
 
-@media (max-width: 768px) {
+.home-content h2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #C4952A;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  border-bottom: none;
+}
+
+.home-content p {
+  font-size: 0.875rem;
+  line-height: 1.8;
+  color: #2c2c2c;
+}
+
+/* Right column: In the News (~20%) */
+.home-news {
+  flex: 0 0 20%;
+  min-width: 0;
+  overflow-y: auto;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #e8e8e8;
+  padding-left: 2rem;
+}
+
+.home-news h2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #C4952A;
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+  text-align: left;
+  flex-shrink: 0;
+}
+
+.home-news-cards {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0;
+}
+
+.home-news-cards .news-card {
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .home-hero {
+    flex-wrap: wrap;
+  }
+  .home-news {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 600px) {
   .home-hero {
     flex-direction: column;
     align-items: center;
-    text-align: center;
   }
-  .home-content {
+  .home-sidebar {
     width: 100%;
+    max-width: 260px;
+  }
+  .home-name {
+    font-size: 1.8rem;
   }
 }
 
@@ -141,8 +230,8 @@ body:has(.home-hero) #title-block-header {
   border: 1px solid #888;
   color: #333 !important;
   border-radius: 4px;
-  font-size: 0.78rem;
-  padding: 0.2rem 0.6rem;
+  font-size: 0.72rem;
+  padding: 0.15rem 0.5rem;
   transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
   text-decoration: none;
   display: inline-block;
@@ -293,41 +382,48 @@ hr {
 }
 
 .news-card {
-  background-color: #f8f8f8;
-  border: 1px solid #e0e0e0;
-  border-top: 3px solid #C4952A;
-  border-radius: 0 0 6px 6px;
-  padding: 1.1rem 1.25rem;
+  background: none;
+  border: none;
+  border-left: 3px solid #C4952A;
+  border-radius: 0;
+  padding: 0.5rem 0 0.5rem 0.85rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  gap: 0.25rem;
+  transition: border-color 0.15s ease;
 }
 
 .news-card:hover {
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-  transform: translateY(-2px);
+  border-color: #a07820;
+  box-shadow: none;
+  transform: none;
+}
+
+.home-news .news-card + .news-card {
+  margin-top: 0.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #ebebeb;
 }
 
 .news-outlet {
-  font-size: 0.72rem;
+  font-size: 0.65rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: #888;
-  line-height: 1.4;
+  letter-spacing: 0.07em;
+  color: #aaa;
+  line-height: 1.3;
 }
 
 .news-headline {
-  font-size: 0.95rem;
+  font-size: 0.82rem;
   font-weight: 500;
-  line-height: 1.45;
+  line-height: 1.4;
   flex-grow: 1;
 }
 
 .news-date {
-  font-size: 0.8rem;
-  color: #999;
+  font-size: 0.72rem;
+  color: #bbb;
 }
 
 /* Remove default paragraph margins inside news cards */
