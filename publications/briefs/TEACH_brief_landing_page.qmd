@@ -1,0 +1,31 @@
+---
+date: "September 15 2025"
+date-format: "MMMM YYYY"
+title: "Financial Aid For Future Educators: Policy & Practice Summary"
+categories: "Research Brief"
+author: "Wesley T. Morris"
+about:
+  template: solana
+  image-shape: rounded
+  links:
+    - icon: file-text
+      text: Full Text
+      href: https://edworkingpapers.com/sites/default/files/Financial%20Aid%20For%20Future%20Educators.pdf
+    - icon: link
+      text: EdWorkingPapers Series
+      href: https://edworkingpapers.com/policy-practice-series/ai25-1278
+---
+
+## Summary
+
+This policy and practice summary examines the federal Teacher Education Assistance for College and Higher Education (TEACH) grant program's effectiveness in supporting students pursuing teaching degrees. Drawing on enrollment and financial aid data from over one million University of North Carolina System students (2011–2021), the brief identifies three key findings:
+
+- Only approximately 1% of eligible undergraduate teacher preparation students received TEACH grants, suggesting significant room to expand program reach.
+- Students who received a TEACH grant were approximately 7 percentage points more likely than their peers to persist in and complete teacher education programs.
+- Undergraduate TEACH grant recipients generally did not end up with less student debt than non-recipients, in part due to institutional scholarship displacement practices.
+
+The brief discusses implications for ongoing federal reform efforts and offers recommendations for improving program design and implementation.
+
+## Citation
+
+Morris, W. T. (2025). Financial Aid For Future Educators: Assessing A Federal Grant's Impact On Students' Postsecondary Decisions. Policy & Practice Summary. Annenberg Institute at Brown University. https://edworkingpapers.com/policy-practice-series/ai25-1278
