@@ -29,6 +29,8 @@ about:
 ## About Me
 Wesley Morris is a Postdoctoral Research Fellow in Education Policy at the University of Maryland, College Park. His research examines the early career teacher pipeline, with particular attention to how education policies influence teacher labor markets and affect teacher quality. He is especially interested in rural schools, where he explores how well-intentioned reforms can lead to unintended consequences and how more deliberate policy design can better meet the needs of students, educators, and local leaders. Wesley is committed to bridging the divide between research, policy, and practice, and works closely with policymakers and practitioners to ensure his research is both informed by their experience and applicable to the complex decisions they navigate every day.
 
+::: {.column-page}
+
 ---
 
 ## In the News
@@ -69,6 +71,8 @@ UNC School of Education
 ::: {.news-date}
 February 2022
 :::
+:::
+
 :::
 
 :::

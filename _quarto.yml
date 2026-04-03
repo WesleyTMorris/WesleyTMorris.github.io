@@ -2,9 +2,7 @@ project:
   type: website
   execute-dir: project
   output-dir: docs
-  render: 
-    - research_statement.qmd
-    - teaching_statement.qmd
+  render:
     - cv.qmd
     - S&A.qmd
     - research.qmd

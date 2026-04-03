@@ -21,4 +21,6 @@ about:
       href: mailto:wtmorris@umd.edu
 ---
 
-{{< pdf Morris_CV.pdf width=100% height=1030 >}}
+<a href="Morris_CV.pdf" class="download-btn" download>Download CV (PDF)</a>
+
+<iframe src="Morris_CV.pdf" width="100%" height="1050px" style="border: none; margin-top: 1rem;"></iframe>

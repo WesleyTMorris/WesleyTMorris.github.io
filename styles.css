@@ -36,17 +36,41 @@ p {
 
 /* --- About / Profile pages -------------------------------- */
 
-/* More breathing room around the about panel */
 .quarto-about-trestles .about-entity {
   padding-top: 2rem;
 }
 
-/* Social link buttons */
+/* Social link buttons — bordered with fill on hover */
 .about-links .about-link {
+  border: 1px solid #2c6fad;
+  color: #2c6fad !important;
   border-radius: 4px;
   font-size: 0.9rem;
   padding: 0.35rem 0.8rem;
   transition: background-color 0.15s ease, color 0.15s ease;
+  text-decoration: none;
+}
+
+.about-links .about-link:hover {
+  background-color: #2c6fad;
+  color: #fff !important;
+}
+
+/* Bluesky icon via CSS mask (Bootstrap Icons has no Bluesky) */
+a.about-link[href*="bsky.app"]::before {
+  content: '';
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 568 501'%3E%3Cpath d='M123.121 33.664C179.456 75.951 240.389 161.196 284 206.67c43.61-45.474 104.543-130.72 160.879-173.006C491.866-1.811 568-28.094 568 57.731c0 17.431-9.989 146.308-15.851 167.077-20.362 72.871-94.558 91.505-160.797 80.192 115.436 19.616 144.888 84.646 81.423 149.676-120.06 123.197-172.679-30.891-186.155-70.325-2.444-7.192-3.59-10.567-3.617-7.684-.027-2.883-1.173.492-3.617 7.684-13.476 39.434-66.095 193.522-186.155 70.325-63.465-65.03-34.013-130.06 81.423-149.676-66.239 11.313-140.435-7.321-160.797-80.192C9.989 204.039 0 75.162 0 57.731 0-28.094 76.134-1.811 123.121 33.664Z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 568 501'%3E%3Cpath d='M123.121 33.664C179.456 75.951 240.389 161.196 284 206.67c43.61-45.474 104.543-130.72 160.879-173.006C491.866-1.811 568-28.094 568 57.731c0 17.431-9.989 146.308-15.851 167.077-20.362 72.871-94.558 91.505-160.797 80.192 115.436 19.616 144.888 84.646 81.423 149.676-120.06 123.197-172.679-30.891-186.155-70.325-2.444-7.192-3.59-10.567-3.617-7.684-.027-2.883-1.173.492-3.617 7.684-13.476 39.434-66.095 193.522-186.155 70.325-63.465-65.03-34.013-130.06 81.423-149.676-66.239 11.313-140.435-7.321-160.797-80.192C9.989 204.039 0 75.162 0 57.731 0-28.094 76.134-1.811 123.121 33.664Z'/%3E%3C/svg%3E");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  vertical-align: -0.1em;
+  margin-right: 0.35em;
 }
 
 /* --- Research listing tables ------------------------------ */
@@ -60,15 +84,16 @@ p {
 .quarto-listing-table th {
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 0.78rem;
-  letter-spacing: 0.06em;
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
   color: #666;
+  background-color: #f5f5f5;
   border-bottom: 2px solid #dee2e6;
-  padding-bottom: 0.6rem;
+  padding: 0.6rem 0.75rem;
 }
 
 .quarto-listing-table td {
-  padding: 0.65rem 0.5rem;
+  padding: 0.9rem 0.75rem;
   vertical-align: middle;
   border-bottom: 1px solid #f0f0f0;
 }
@@ -77,13 +102,20 @@ p {
   border-bottom: none;
 }
 
+.quarto-listing-table tbody tr:nth-child(even) td {
+  background-color: #fafafa;
+}
+
 .quarto-listing-table tbody tr:hover td {
-  background-color: #f8f9fa;
+  background-color: #eef2f8;
+}
+
+.quarto-listing-table tbody tr:hover td:first-child {
+  border-left: 3px solid #2c6fad;
 }
 
 /* --- Publication landing pages ---------------------------- */
 
-/* Give the abstract/summary section more breathing room */
 .quarto-about-solana .about-entity {
   padding-top: 1.5rem;
 }
@@ -99,7 +131,6 @@ p {
   padding-bottom: 0.4rem;
 }
 
-/* Citation block */
 .quarto-about-solana h2 + p {
   font-size: 0.95rem;
   color: #444;
@@ -108,17 +139,39 @@ p {
 
 /* --- Service & Awards ------------------------------------- */
 
-/* Section headings */
 .quarto-about-marquee h3 {
   margin-top: 2rem;
   margin-bottom: 0.15rem;
+  border-left: 3px solid #2c6fad;
+  padding-left: 0.75rem;
 }
 
 .quarto-about-marquee h5 {
-  font-size: 0.9rem;
-  font-weight: 400;
-  color: #666;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #555;
   margin-bottom: 0.3rem;
+  padding-left: 0.75rem;
+}
+
+/* --- Download button (CV page) ---------------------------- */
+
+.download-btn {
+  display: inline-block;
+  background-color: #2c6fad;
+  color: #fff !important;
+  padding: 0.6rem 1.4rem;
+  border-radius: 5px;
+  text-decoration: none !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.15s ease;
+}
+
+.download-btn:hover {
+  background-color: #1a4f80;
+  color: #fff !important;
 }
 
 /* --- Horizontal rules ------------------------------------- */
@@ -126,15 +179,6 @@ p {
 hr {
   opacity: 0.15;
   margin: 2rem 0;
-}
-
-/* --- Footer ----------------------------------------------- */
-
-.nav-footer {
-  font-size: 0.85rem;
-  color: #888;
-  border-top: 1px solid #e5e5e5;
-  padding-top: 1rem;
 }
 
 /* --- In the News grid ------------------------------------- */
@@ -154,6 +198,12 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.news-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
 }
 
 .news-outlet {
@@ -177,7 +227,6 @@ hr {
   margin-top: 0.25rem;
 }
 
-/* Stack to single column on small screens */
 @media (max-width: 768px) {
   .news-grid {
     grid-template-columns: 1fr;
@@ -186,7 +235,6 @@ hr {
 
 /* --- Utility ---------------------------------------------- */
 
-/* Slightly softer link color */
 a {
   color: #2c6fad;
 }
