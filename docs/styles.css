@@ -62,7 +62,7 @@ body:has(.home-hero) #title-block-header {
 .home-photo {
   width: 100%;
   max-width: 190px;
-  border-radius: 50%;
+  border-radius: 8px;
 }
 
 .home-links {
