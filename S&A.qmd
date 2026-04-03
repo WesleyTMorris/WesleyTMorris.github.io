@@ -19,6 +19,8 @@ about:
     - icon: envelope
       text: Email
       href: mailto:wtmorris@umd.edu
+    - text: Bluesky
+      href: https://bsky.app/profile/wesleytmorris.bsky.social
 ---
 
 ### Dean E. Smith Opening Doors Fund — $20,000 Dissertation Award

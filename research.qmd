@@ -41,6 +41,8 @@ about:
     - icon: envelope
       text: Email
       href: mailto:wtmorris@umd.edu
+    - text: Bluesky
+      href: https://bsky.app/profile/wesleytmorris.bsky.social
 ---
 
 ------------------------------------------------------------------------

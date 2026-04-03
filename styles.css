@@ -41,6 +41,22 @@ p {
   padding-top: 2rem;
 }
 
+/* Gold subtitle on homepage */
+.quarto-about-trestles .subtitle {
+  color: #C4952A;
+  font-size: 0.97rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* Gold accent underline on homepage section headings */
+.quarto-about-trestles h2 {
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #C4952A;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
 /* Social link buttons — gray border, gold fill on hover */
 .about-links .about-link {
   border: 1px solid #888;
