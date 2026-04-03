@@ -1,7 +1,8 @@
 ---
 title: "Wesley T. Morris"
 subtitle: "Postdoctoral Research Fellow<br>College of Education · University of Maryland"
-resources: 
+page-layout: full
+resources:
     - headshot.png
     - Morris_CV.pdf
     - CNAME
