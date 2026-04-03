@@ -1,6 +1,6 @@
 ---
 title: "Wesley T. Morris"
-subtitle: "Postdoctoral Research Fellow · University of Maryland, College Park · College of Education"
+subtitle: "Postdoctoral Research Fellow<br>University of Maryland, College Park · College of Education"
 resources: 
     - headshot.png
     - Morris_CV.pdf
