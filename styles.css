@@ -61,7 +61,7 @@ body:has(.home-hero) #title-block-header {
 
 .home-photo {
   width: 100%;
-  max-width: 190px;
+  max-width: 240px;
   border-radius: 8px;
 }
 
@@ -83,10 +83,12 @@ body:has(.home-hero) #title-block-header {
 }
 
 .home-name {
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: 700;
-  margin-bottom: 0.25rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
   color: #1a1a1a;
+  text-align: center;
 }
 
 .home-subtitle {
@@ -132,7 +134,8 @@ body:has(.home-hero) #title-block-header {
 }
 
 /* Social link buttons — gray border, gold fill on hover */
-.about-links .about-link {
+.about-links .about-link,
+.home-links .about-link {
   border: 1px solid #888;
   color: #333 !important;
   border-radius: 4px;
@@ -140,9 +143,14 @@ body:has(.home-hero) #title-block-header {
   padding: 0.35rem 0.8rem;
   transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
   text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-.about-links .about-link:hover {
+.about-links .about-link:hover,
+.home-links .about-link:hover {
   background-color: #C4952A;
   border-color: #C4952A;
   color: #fff !important;
