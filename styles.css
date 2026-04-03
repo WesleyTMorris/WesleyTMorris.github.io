@@ -61,7 +61,7 @@ body:has(.home-hero) #title-block-header {
 
 .home-photo {
   width: 100%;
-  max-width: 240px;
+  max-width: 280px;
   border-radius: 8px;
 }
 
@@ -141,8 +141,8 @@ body:has(.home-hero) #title-block-header {
   border: 1px solid #888;
   color: #333 !important;
   border-radius: 4px;
-  font-size: 0.9rem;
-  padding: 0.35rem 0.8rem;
+  font-size: 0.78rem;
+  padding: 0.2rem 0.6rem;
   transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
   text-decoration: none;
   display: inline-block;
