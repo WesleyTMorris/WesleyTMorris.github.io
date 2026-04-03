@@ -202,50 +202,57 @@ hr {
   margin: 2rem 0;
 }
 
-/* --- In the News grid ------------------------------------- */
+/* --- In the News list ------------------------------------- */
 
 .news-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
-  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 1rem;
 }
 
 .news-card {
-  background-color: #f8f8f8;
-  border: 1px solid #e0e0e0;
-  border-radius: 6px;
-  padding: 1.1rem 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  display: grid;
+  grid-template-columns: 7.5rem 1fr 5.5rem;
+  gap: 1rem;
+  align-items: start;
+  padding: 0.9rem 0 0.9rem 1rem;
+  border-left: 3px solid #C4952A;
+  border-bottom: 1px solid #ebebeb;
+  background: none;
+  border-radius: 0;
+  transition: background-color 0.15s ease;
+}
+
+.news-card:last-child {
+  border-bottom: none;
 }
 
 .news-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transform: translateY(-2px);
+  background-color: #fdf8ef;
 }
 
 .news-outlet {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.06em;
   color: #888;
+  line-height: 1.4;
+  padding-top: 0.1rem;
 }
 
 .news-headline {
   font-size: 0.95rem;
   font-weight: 500;
-  line-height: 1.4;
-  flex-grow: 1;
+  line-height: 1.45;
 }
 
 .news-date {
   font-size: 0.8rem;
   color: #999;
-  margin-top: 0.25rem;
+  text-align: right;
+  padding-top: 0.1rem;
 }
 
 /* Remove default paragraph margins inside news cards */
@@ -254,8 +261,12 @@ hr {
 }
 
 @media (max-width: 768px) {
-  .news-grid {
+  .news-card {
     grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+  .news-date {
+    text-align: left;
   }
 }
 
