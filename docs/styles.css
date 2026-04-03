@@ -1,0 +1,149 @@
+/* ============================================================
+   Wesley T. Morris — Custom Styles
+   Theme: Lux (Bootstrap)
+   ============================================================ */
+
+/* --- Typography ------------------------------------------- */
+
+body {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #2c2c2c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #1a1a1a;
+}
+
+p {
+  margin-bottom: 1.1rem;
+}
+
+/* --- Navbar ----------------------------------------------- */
+
+.navbar {
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+/* --- About / Profile pages -------------------------------- */
+
+/* More breathing room around the about panel */
+.quarto-about-trestles .about-entity {
+  padding-top: 2rem;
+}
+
+/* Social link buttons */
+.about-links .about-link {
+  border-radius: 4px;
+  font-size: 0.9rem;
+  padding: 0.35rem 0.8rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* --- Research listing tables ------------------------------ */
+
+.quarto-listing-table table {
+  font-size: 0.95rem;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.quarto-listing-table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  color: #666;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 0.6rem;
+}
+
+.quarto-listing-table td {
+  padding: 0.65rem 0.5rem;
+  vertical-align: middle;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.quarto-listing-table tr:last-child td {
+  border-bottom: none;
+}
+
+.quarto-listing-table tbody tr:hover td {
+  background-color: #f8f9fa;
+}
+
+/* --- Publication landing pages ---------------------------- */
+
+/* Give the abstract/summary section more breathing room */
+.quarto-about-solana .about-entity {
+  padding-top: 1.5rem;
+}
+
+.quarto-about-solana h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #555;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0.4rem;
+}
+
+/* Citation block */
+.quarto-about-solana h2 + p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* --- Service & Awards ------------------------------------- */
+
+/* Section headings */
+.quarto-about-marquee h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.15rem;
+}
+
+.quarto-about-marquee h5 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+/* --- Horizontal rules ------------------------------------- */
+
+hr {
+  opacity: 0.15;
+  margin: 2rem 0;
+}
+
+/* --- Footer ----------------------------------------------- */
+
+.nav-footer {
+  font-size: 0.85rem;
+  color: #888;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 1rem;
+}
+
+/* --- Utility ---------------------------------------------- */
+
+/* Slightly softer link color */
+a {
+  color: #2c6fad;
+}
+
+a:hover {
+  color: #1a4f80;
+}
