@@ -48,13 +48,16 @@ p {
   font-weight: 400;
 }
 
-/* Gold underline on section headings (homepage + other pages) */
-.quarto-about-trestles h2,
-.quarto-about-marquee h2 {
-  padding-bottom: 0.4rem;
-  border-bottom: 2px solid #C4952A;
-  display: inline-block;
-  margin-bottom: 1rem;
+/* Gold accent bar under section headings */
+.quarto-about-trestles h2::after,
+.quarto-about-marquee h2::after {
+  content: '';
+  display: block;
+  width: 2.5rem;
+  height: 2px;
+  background-color: #C4952A;
+  margin-top: 0.4rem;
+  margin-bottom: 0.75rem;
 }
 
 /* Social link buttons — gray border, gold fill on hover */
@@ -243,6 +246,11 @@ hr {
   font-size: 0.8rem;
   color: #999;
   margin-top: 0.25rem;
+}
+
+/* Remove default paragraph margins inside news cards */
+.news-card p {
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
