@@ -14,6 +14,9 @@ about:
     - icon: link
       text: EdWorkingPapers Series
       href: https://edworkingpapers.com/policy-practice-series/ai25-1278
+    - icon: journal-text
+      text: Read the Working Paper
+      href: /publications/journal_articles/TEACH_landing_page.html
 ---
 
 ## Summary

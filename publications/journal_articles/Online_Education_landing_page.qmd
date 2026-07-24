@@ -13,6 +13,9 @@ about:
     - icon: file-text
       text: Full Text
       href: https://www.journals.uchicago.edu/doi/10.1086/728807
+    - icon: megaphone
+      text: Read the Policy Brief
+      href: /publications/briefs/online_ed_brief_landing_page.html
 ---
 
 ## Abstract

@@ -13,6 +13,9 @@ about:
     - icon: file-text
       text: Full Text
       href: https://edworkingpapers.com/ai25-1278
+    - icon: megaphone
+      text: Read the Policy Brief
+      href: /publications/briefs/TEACH_brief_landing_page.html
 ---
 
 ## Abstract

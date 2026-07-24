@@ -13,6 +13,9 @@ about:
     - icon: file-text
       text: Full Text
       href: https://ed.unc.edu/wp-content/uploads/2024/04/Online-Ed-Brief.pdf
+    - icon: journal-text
+      text: Read the Journal Article
+      href: /publications/journal_articles/Online_Education_landing_page.html
 ---
 
 ## Summary
