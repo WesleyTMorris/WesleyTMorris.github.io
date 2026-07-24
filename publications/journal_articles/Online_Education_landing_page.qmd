@@ -3,6 +3,7 @@ date: "April 15 2024"
 date-format: "MMMM YYYY"
 resources: JOLE_card.jpg
 title: "The Expanding Landscape of Online Education: Who Engages and How They Fare"
+description: "Journal article on online course enrollment patterns and their relationship to grades and degree completion in the UNC System."
 categories: "Journal Article"
 author: "Lisa Barrow, Wesley T. Morris, and Lauren Sartain"
 image: JOLE_card.jpg

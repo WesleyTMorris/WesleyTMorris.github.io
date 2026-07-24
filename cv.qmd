@@ -1,5 +1,6 @@
 ---
 title: "Curriculum Vitae"
+description: "Curriculum vitae for Wesley T. Morris, Postdoctoral Research Fellow at the University of Maryland."
 resources: Morris_CV.pdf
 editor: visual
 about:

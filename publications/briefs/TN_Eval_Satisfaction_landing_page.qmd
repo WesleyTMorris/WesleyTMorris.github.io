@@ -3,6 +3,7 @@ date: "May 15 2020"
 date-format: "MMMM YYYY"
 resources: tera.png
 title: "Teacher Perceptions of Evaluation Fairness and Burden"
+description: "Research brief on Tennessee teachers' perceptions of evaluation fairness and burden over time."
 categories: "Research Brief"
 author: "Wesley T. Morris"
 image: tera.png

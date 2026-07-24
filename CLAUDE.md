@@ -32,12 +32,8 @@ Contact: wtmorris@umd.edu | [Google Scholar](https://scholar.google.com/citation
 ├── index.qmd                        # Homepage / About Me (Trestles template)
 ├── research.qmd                     # Research page with auto-generated listings
 ├── cv.qmd                           # CV page (embeds Morris_CV.pdf)
-├── research_statement.qmd           # Embeds Research_Statement.pdf
-├── teaching_statement.qmd           # Embeds Teaching_Statement.pdf
 ├── S&A.qmd                          # Service & Awards page
 ├── Morris_CV.pdf                    # Current CV (PDF)
-├── Research_Statement.pdf           # Research statement (PDF)
-├── Teaching_Statement.pdf           # Teaching statement (PDF)
 ├── headshot.png                     # Profile photo
 ├── CNAME                            # GitHub Pages custom domain config
 ├── _extensions/                     # Quarto extensions
@@ -93,7 +89,7 @@ CV                       →  cv.qmd
 Research                 →  research.qmd
 ```
 
-Pages not in the navbar (but rendered): `research_statement.qmd`, `teaching_statement.qmd`, and all publication landing pages.
+Pages not in the navbar (but rendered): all publication landing pages.
 
 ---
 

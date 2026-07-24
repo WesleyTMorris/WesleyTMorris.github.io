@@ -1,6 +1,8 @@
 ---
 title: "Wesley T. Morris"
+description: "Postdoctoral Research Fellow at the University of Maryland studying teacher labor markets, early-career teacher effectiveness, and rural schools."
 page-layout: full
+image: headshot.png
 resources:
     - headshot.png
     - Morris_CV.pdf

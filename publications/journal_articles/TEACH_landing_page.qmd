@@ -3,6 +3,7 @@ date: "September 15 2025"
 date-format: "MMMM YYYY"
 resources: teach.png
 title: "Financial Aid For Future Educators: Assessing A Federal Grant's Impact On Students' Postsecondary Decisions"
+description: "Working paper examining TEACH grant uptake and its effects on student borrowing, costs, and completion of teacher education programs."
 categories: "Working Paper"
 author: "Wesley T. Morris"
 image: teach.png

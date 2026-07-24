@@ -3,6 +3,7 @@ date: "April 15 2020"
 date-format: "MMMM YYYY"
 resources: mentors matter.png
 title: "Learning from the Best"
+description: "Research brief on how mentor teacher effectiveness shapes student teaching experiences and novice teacher readiness."
 categories: "Research Brief"
 author: "Wesley T. Morris, Matthew Ronfeldt, Emanuele Bardelli, and Matthew Truwit"
 image: mentors matter.png

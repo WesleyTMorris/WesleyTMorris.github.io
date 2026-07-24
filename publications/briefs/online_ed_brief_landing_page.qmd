@@ -3,6 +3,7 @@ date: "April 15 2022"
 date-format: "MMMM YYYY"
 resources: Online_ed_brief.png
 title: "The Expanding Landscape of Online Education A Brief"
+description: "Research brief on the growth of online course-taking and its relationship to student outcomes in the UNC System."
 categories: "Research Brief"
 author: "Lisa Barrow, Wesley T. Morris, and Lauren Sartain"
 image: Online_ed_brief.png

@@ -3,6 +3,7 @@ date: "July 15 2026"
 date-format: "MMMM YYYY"
 resources: localness.png
 title: "Teacher Localness, Early-Career Effectiveness, and Retention"
+description: "Working paper on whether teacher localness predicts early-career effectiveness and retention in Maryland schools."
 categories: "Working Paper"
 author: "Nicolas Dominguez-Mel, Wesley T. Morris, Sarah Montana, and David Blazar"
 image: localness.png

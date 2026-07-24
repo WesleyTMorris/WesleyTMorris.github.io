@@ -1,5 +1,6 @@
 ---
 title: "Research"
+description: "Journal articles, working papers, and research briefs by Wesley T. Morris on teacher labor markets, early-career effectiveness, and rural schools."
 date-format: "MMMM YYYY"
 listing:
   - id: journal

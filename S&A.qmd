@@ -1,5 +1,6 @@
 ---
 title: "Service & Awards"
+description: "Service, awards, and honors for Wesley T. Morris, Postdoctoral Research Fellow at the University of Maryland."
 format: html
 editor: visual
 about:

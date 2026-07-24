@@ -2,6 +2,7 @@
 date: "September 15 2025"
 date-format: "MMMM YYYY"
 title: "Financial Aid For Future Educators: Policy & Practice Summary"
+description: "Policy brief summarizing findings on TEACH grant program reach, student debt, and persistence in teacher preparation."
 categories: "Research Brief"
 author: "Wesley T. Morris"
 about:

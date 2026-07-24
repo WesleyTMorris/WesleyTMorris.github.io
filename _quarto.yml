@@ -19,6 +19,10 @@ project:
 
 website:
   title: "Wesley T. Morris"
+  site-url: "https://wesleytmorris.com"
+  favicon: favicon.png
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - text: About Me
