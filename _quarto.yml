@@ -13,7 +13,8 @@ project:
     - publications/journal_articles/TEACH_landing_page.qmd
     - publications/journal_articles/Online_Education_landing_page.qmd
     - publications/journal_articles/Teacher_Satisfaction_landing_page.qmd
-    
+    - publications/journal_articles/Localness_landing_page.qmd
+
     - index.qmd
 
 website:
