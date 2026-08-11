@@ -142,16 +142,56 @@ body:has(.home-hero) main.content {
   color: #2c2c2c;
 }
 
-/* Right column: In the News (~20%) */
+/* Right column: In the News (~20%) — self-contained panel, independent scroll */
 .home-news {
-  flex: 0 0 20%;
+  flex: 0 0 21%;
   min-width: 0;
-  overflow-y: auto;
-  max-height: 100%;
+  align-self: flex-start;
+  position: relative;
   display: flex;
   flex-direction: column;
-  border-left: 1px solid #e8e8e8;
-  padding-left: 2rem;
+  max-height: 480px;
+  background-color: #fafafa;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  padding: 1.1rem 1.25rem;
+}
+
+/* Bouncing cue that shows only while there's more to scroll to */
+.news-scroll-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 0.55rem;
+  transform: translateX(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #C4952A;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  transition: opacity 0.2s ease;
+  animation: news-scroll-bounce 1.6s ease-in-out infinite;
+}
+
+.news-scroll-hint.is-visible {
+  opacity: 0.92;
+}
+
+@keyframes news-scroll-bounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(3px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .news-scroll-hint {
+    animation: none;
+  }
 }
 
 .home-news h2 {
@@ -161,7 +201,7 @@ body:has(.home-hero) main.content {
   text-transform: uppercase;
   color: #C4952A;
   margin-top: 0;
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.75rem;
   text-align: left;
   flex-shrink: 0;
 }
@@ -169,12 +209,42 @@ body:has(.home-hero) main.content {
 .home-news-cards {
   display: flex;
   flex-direction: column;
-  flex: 1;
   gap: 0;
+  overflow-y: auto;
+  padding-right: 0.6rem;
+  margin-right: -0.6rem;
+  scrollbar-width: thin;
+  scrollbar-color: #d4b978 transparent;
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-image:
+    linear-gradient(#fafafa 40%, rgba(250, 250, 250, 0)),
+    linear-gradient(rgba(250, 250, 250, 0), #fafafa 60%) 0 100%,
+    radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, .12), rgba(0, 0, 0, 0)),
+    radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, .12), rgba(0, 0, 0, 0)) 0 100%;
+  background-size: 100% 24px, 100% 24px, 100% 10px, 100% 10px;
+  background-attachment: local, local, scroll, scroll;
 }
 
 .home-news-cards .news-card {
-  flex: 1;
+  flex: 0 0 auto;
+}
+
+.home-news-cards::-webkit-scrollbar {
+  width: 5px;
+}
+
+.home-news-cards::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.home-news-cards::-webkit-scrollbar-thumb {
+  background-color: #d4b978;
+  border-radius: 3px;
+}
+
+.home-news-cards::-webkit-scrollbar-thumb:hover {
+  background-color: #C4952A;
 }
 
 @media (max-width: 900px) {
@@ -183,6 +253,7 @@ body:has(.home-hero) main.content {
   }
   .home-news {
     flex: 1 1 100%;
+    max-height: 340px;
   }
 }
 

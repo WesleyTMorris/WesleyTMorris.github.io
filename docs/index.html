@@ -254,8 +254,25 @@ Postdoctoral Research Fellow<br>Department of Teaching and Learning, Policy and 
 </div>
 </div>
 </div>
+<div class="news-scroll-hint" aria-hidden="true">
+<i class="bi bi-chevron-down"></i>
+</div>
 </section>
 </div>
+<script>
+(function () {
+  var list = document.querySelector('.home-news-cards');
+  var hint = document.querySelector('.news-scroll-hint');
+  if (!list || !hint) return;
+  function update() {
+    var hasMore = list.scrollHeight - list.scrollTop - list.clientHeight > 4;
+    hint.classList.toggle('is-visible', hasMore);
+  }
+  update();
+  list.addEventListener('scroll', update);
+  window.addEventListener('resize', update);
+})();
+</script>
 
 
 
