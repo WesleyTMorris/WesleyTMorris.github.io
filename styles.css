@@ -33,6 +33,21 @@ p {
 .navbar-brand {
   font-weight: 700;
   letter-spacing: 0.01em;
+  color: #C4952A !important;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #ddb15a !important;
+}
+
+.navbar-nav .nav-link {
+  color: #C4952A !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #ddb15a !important;
 }
 
 /* --- About / Profile pages -------------------------------- */
@@ -58,26 +73,36 @@ body:has(.home-hero) main.content {
   align-items: stretch;
   padding: 2rem 0 2rem;
   border-top: 3px solid #C4952A;
+  --card-height: 420px;
 }
 
-/* Left column: photo + buttons (~20%) */
+/* Left column: photo + buttons (~23%) — mirrors the News card for symmetry */
 .home-sidebar {
-  flex: 0 0 20%;
+  flex: 0 0 23%;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   align-self: flex-start;
+  justify-content: center;
   gap: 0.6rem;
+  height: var(--card-height);
+  background-color: #fafafa;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  padding: 1.1rem 0.85rem;
 }
 
 .home-photo {
   width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 6px;
   display: block;
   box-shadow: 0 4px 18px rgba(0,0,0,0.12);
 }
 
 .home-links {
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
@@ -93,8 +118,6 @@ body:has(.home-hero) main.content {
 .home-content {
   flex: 2;
   min-width: 0;
-  border-left: 1px solid #e8e8e8;
-  padding-left: 1.5rem;
 }
 
 .home-name {
@@ -142,19 +165,19 @@ body:has(.home-hero) main.content {
   color: #2c2c2c;
 }
 
-/* Right column: In the News (~20%) — self-contained panel, independent scroll */
+/* Right column: In the News (~23%) — self-contained panel, independent scroll */
 .home-news {
-  flex: 0 0 21%;
+  flex: 0 0 23%;
   min-width: 0;
   align-self: flex-start;
   position: relative;
   display: flex;
   flex-direction: column;
-  max-height: 480px;
+  height: var(--card-height);
   background-color: #fafafa;
   border: 1px solid #ececec;
   border-radius: 10px;
-  padding: 1.1rem 1.25rem;
+  padding: 1.1rem 0.85rem;
 }
 
 /* Bouncing cue that shows only while there's more to scroll to */
@@ -180,7 +203,7 @@ body:has(.home-hero) main.content {
 }
 
 .news-scroll-hint.is-visible {
-  opacity: 0.92;
+  opacity: 1;
 }
 
 @keyframes news-scroll-bounce {
@@ -201,12 +224,24 @@ body:has(.home-hero) main.content {
   text-transform: uppercase;
   color: #C4952A;
   margin-top: 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
   text-align: left;
   flex-shrink: 0;
 }
 
+.home-news h2::after {
+  content: '';
+  display: block;
+  width: 2rem;
+  height: 2px;
+  background-color: #C4952A;
+  margin-top: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
 .home-news-cards {
+  flex: 1 1 auto;
+  min-height: 0;
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -214,7 +249,7 @@ body:has(.home-hero) main.content {
   padding-right: 0.6rem;
   margin-right: -0.6rem;
   scrollbar-width: thin;
-  scrollbar-color: #d4b978 transparent;
+  scrollbar-color: #1a1a1a transparent;
   background-color: #fafafa;
   background-repeat: no-repeat;
   background-image:
@@ -239,21 +274,21 @@ body:has(.home-hero) main.content {
 }
 
 .home-news-cards::-webkit-scrollbar-thumb {
-  background-color: #d4b978;
+  background-color: #1a1a1a;
   border-radius: 3px;
 }
 
 .home-news-cards::-webkit-scrollbar-thumb:hover {
-  background-color: #C4952A;
+  background-color: #000;
 }
 
 @media (max-width: 900px) {
   .home-hero {
     flex-wrap: wrap;
+    --card-height: 340px;
   }
   .home-news {
     flex: 1 1 100%;
-    max-height: 340px;
   }
 }
 
@@ -456,8 +491,10 @@ hr {
   background: none;
   border: none;
   border-left: 3px solid #C4952A;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
   border-radius: 0;
-  padding: 0.5rem 0 0.5rem 0.85rem;
+  padding: 0.75rem 0 0.75rem 0.85rem;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -465,15 +502,9 @@ hr {
 }
 
 .news-card:hover {
-  border-color: #a07820;
+  border-left-color: #a07820;
   box-shadow: none;
   transform: none;
-}
-
-.home-news .news-card + .news-card {
-  margin-top: 0.25rem;
-  padding-top: 0.75rem;
-  border-top: 1px solid #ebebeb;
 }
 
 .news-outlet {

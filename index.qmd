@@ -5,6 +5,7 @@ page-layout: full
 image: headshot.png
 resources:
     - headshot.png
+    - headshot_thumb.png
     - Morris_CV.pdf
     - CNAME
 ---
@@ -12,7 +13,7 @@ resources:
 <div class="home-hero">
 
 <div class="home-sidebar">
-<img src="headshot.png" class="home-photo" alt="Wesley T. Morris">
+<img src="headshot_thumb.png" class="home-photo" alt="Wesley T. Morris">
 <div class="home-links">
 <div><a href="Morris_CV.pdf" class="about-link"><i class="bi bi-file-text"></i> CV</a></div>
 <div><a href="https://scholar.google.com/citations?hl=en&user=ktYcC8MAAAAJ&view_op=list_works&authuser=5&gmla=AH70aAWVyVJkXi7NWJQBqNzgLmUIHMp1BeJhLZbRPnf2S7CC718HviNud1FttDOMRthIlc1Uk9nKmh6UqikZp6jzrJmJ3KDwsfBwqg" class="about-link"><i class="bi bi-mortarboard"></i> Google Scholar</a></div>
@@ -28,7 +29,7 @@ resources:
 
 ## About Me
 
-Wesley Morris is a Postdoctoral Research Fellow in Education Policy at the University of Maryland, College Park. His research examines the early career teacher pipeline, with particular attention to how education policies influence teacher labor markets and affect teacher quality. He is especially interested in rural schools, where he explores how well-intentioned reforms can lead to unintended consequences and how more deliberate policy design can better meet the needs of students, educators, and local leaders. Wesley is committed to bridging the divide between research, policy, and practice, and works closely with policymakers and practitioners to ensure his research is both informed by their experience and applicable to the complex decisions they navigate every day.
+Wesley Morris is a Postdoctoral Research Fellow in Education Policy at the University of Maryland, College Park. His research examines the early career teacher pipeline, with particular attention to how education policies shape teachers' labor market decisions, their instructional effectiveness, and the diversity of the teaching workforce. His current work focuses on teacher compensation, educator preparation, and teacher scholarships and financial aid. Wesley is committed to bridging the divide between research, policy, and practice, and works closely with policymakers and practitioners to ensure his research is both informed by their experience and applicable to the complex decisions they navigate every day.
 </div>
 
 <div class="home-news">
