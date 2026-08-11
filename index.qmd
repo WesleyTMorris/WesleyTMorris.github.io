@@ -39,6 +39,18 @@ Wesley Morris is a Postdoctoral Research Fellow in Education Policy at the Unive
 
 ::: {.news-card}
 ::: {.news-outlet}
+FutureEd
+:::
+::: {.news-headline}
+[Research Notes: Local Teacher Hires Stay Longer, Are Less Effective, Study Finds](https://www.future-ed.org/research-notes-local-teacher-hires-stay-longer-are-less-effective-study-finds/)
+:::
+::: {.news-date}
+August 2026
+:::
+:::
+
+::: {.news-card}
+::: {.news-outlet}
 National Council on Teacher Quality
 :::
 ::: {.news-headline}
