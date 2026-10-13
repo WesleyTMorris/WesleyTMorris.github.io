@@ -1,6 +1,6 @@
 ---
 title: "Wesley T. Morris"
-description: "Postdoctoral Research Fellow at the University of Maryland studying teacher labor markets, early-career teacher effectiveness, and rural schools."
+description: "Research Assistant Professor in the Center for Research in Educational Policy at the University of Memphis studying teacher labor markets, early-career teacher effectiveness, and rural schools."
 page-layout: full
 image: headshot.png
 resources:
@@ -17,7 +17,7 @@ resources:
 <div class="home-links">
 <div><a href="Morris_CV.pdf" class="about-link"><i class="bi bi-file-text"></i> CV</a></div>
 <div><a href="https://scholar.google.com/citations?hl=en&user=ktYcC8MAAAAJ&view_op=list_works&authuser=5&gmla=AH70aAWVyVJkXi7NWJQBqNzgLmUIHMp1BeJhLZbRPnf2S7CC718HviNud1FttDOMRthIlc1Uk9nKmh6UqikZp6jzrJmJ3KDwsfBwqg" class="about-link"><i class="bi bi-mortarboard"></i> Google Scholar</a></div>
-<div><a href="mailto:wtmorris@umd.edu" class="about-link"><i class="bi bi-envelope"></i> Email</a></div>
+<div><a href="mailto:wtmorris@memphis.edu" class="about-link"><i class="bi bi-envelope"></i> Email</a></div>
 <div><a href="https://www.linkedin.com/in/wesleytmorris/" class="about-link"><i class="bi bi-linkedin"></i> LinkedIn</a></div>
 <div><a href="https://bsky.app/profile/wesleytmorris.bsky.social" class="about-link">Bluesky</a></div>
 </div>
@@ -25,11 +25,13 @@ resources:
 
 <div class="home-content">
 <h1 class="home-name">Wesley T. Morris</h1>
-<p class="home-subtitle">Postdoctoral Research Fellow<br>Department of Teaching and Learning, Policy and Leadership<br>College of Education<br>University of Maryland, College Park</p>
+<p class="home-subtitle">Research Assistant Professor<br>Center for Research in Educational Policy<br>College of Education<br>University of Memphis</p>
 
 ## About Me
 
-Wesley Morris is a Postdoctoral Research Fellow in Education Policy at the University of Maryland, College Park. His research examines the early career teacher pipeline, with particular attention to how education policies shape teachers' labor market decisions, their instructional effectiveness, and the diversity of the teaching workforce. His current work focuses on teacher compensation, educator preparation, and teacher scholarships and financial aid. Wesley is committed to bridging the divide between research, policy, and practice, and works closely with policymakers and practitioners to ensure his research is both informed by their experience and applicable to the complex decisions they navigate every day.
+Wesley T. Morris is a Research Assistant Professor in the Center for Research in Educational Policy (CREP) at the University of Memphis. His research focuses on the teacher labor market and how education policy shapes who becomes a teacher, where they work, how long they stay, and how they perform in the classroom. His work has examined compensation reform and financial aid for future teachers, as well as localized recruitment strategies and Grow Your Own programs. Broadly, his work falls within the economics of education, and he has also published on online education and begun new work on school choice and rural education. Wesley is committed to bridging research, policy, and practice, and works closely with policymakers and practitioners so that his research is informed by their experience and useful for the decisions they face.
+
+Before joining CREP, Wesley was a Postdoctoral Research Fellow at the University of Maryland, College Park. He holds a Ph.D. in Education from the University of North Carolina at Chapel Hill, an M.P.P. in Education Policy from Vanderbilt University, and a B.S. in Mathematics from Wake Forest University.
 </div>
 
 <div class="home-news">

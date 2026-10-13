@@ -2,14 +2,14 @@
 
 ## About the Site Owner
 
-Wesley T. Morris is an education policy researcher and Postdoctoral Research Fellow at the University of Maryland, College Park. His research focuses on:
+Wesley T. Morris is an education policy researcher and Research Assistant Professor in the Center for Research in Educational Policy (CREP) at the University of Memphis (previously a Postdoctoral Research Fellow at the University of Maryland, College Park; PhD from UNC Chapel Hill). His research focuses on:
 - Early career teacher pipelines
 - Teacher labor markets
 - Market-based reforms in education (particularly how well-intentioned reforms create unintended consequences)
 - Rural schools
 - Bridging research, policy, and practice
 
-Contact: wtmorris@umd.edu | [Google Scholar](https://scholar.google.com/citations?user=ktYcC8MAAAAJ)
+Contact: wtmorris@memphis.edu | [Google Scholar](https://scholar.google.com/citations?user=ktYcC8MAAAAJ)
 
 ---
 
@@ -44,6 +44,8 @@ Contact: wtmorris@umd.edu | [Google Scholar](https://scholar.google.com/citation
     │   ├── Online_Education_landing_page.qmd
     │   └── Teacher_Satisfaction_landing_page.qmd
     └── briefs/                      # One .qmd per policy brief or general-audience piece
+        ├── TEACH_brief_landing_page.qmd
+        ├── Localness_brief_landing_page.qmd
         ├── mentors_matter_landing_page.qmd
         ├── TN_Eval_Satisfaction_landing_page.qmd
         └── online_ed_brief_landing_page.qmd

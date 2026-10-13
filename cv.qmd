@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-description: "Curriculum vitae for Wesley T. Morris, Postdoctoral Research Fellow at the University of Maryland."
+description: "Curriculum vitae for Wesley T. Morris, Research Assistant Professor at the University of Memphis."
 resources: Morris_CV.pdf
 editor: visual
 about:
@@ -19,7 +19,7 @@ about:
       href: https://www.linkedin.com/in/wesleytmorris/
     - icon: envelope
       text: Email
-      href: mailto:wtmorris@umd.edu
+      href: mailto:wtmorris@memphis.edu
     - text: Bluesky
       href: https://bsky.app/profile/wesleytmorris.bsky.social
 ---

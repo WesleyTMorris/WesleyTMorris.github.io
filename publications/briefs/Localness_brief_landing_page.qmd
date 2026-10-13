@@ -1,0 +1,36 @@
+---
+date: "October 1 2026"
+date-format: "MMMM YYYY"
+title: "Teacher Localness, Early-Career Effectiveness, and Retention: Policy & Practice Summary"
+description: "Policy brief summarizing findings on how growing up, training, and working locally relate to new teachers' effectiveness and retention in Maryland."
+categories: "Research Brief"
+author: "Nicolas Dominguez-Mel, Wesley T. Morris, Sarah Montana, and David Blazar"
+about:
+  template: solana
+  image-shape: rounded
+  links:
+    - icon: file-text
+      text: Full Text
+      href: https://edworkingpapers.com/sites/default/files/Teacher%20Localness%2C%20Early-Career%20Effectiveness%2C%20and%20Retention.pdf
+    - icon: link
+      text: EdWorkingPapers Series
+      href: https://edworkingpapers.com/policy-practice-series/ai26-1501
+    - icon: journal-text
+      text: Read the Working Paper
+      href: /publications/journal_articles/Localness_landing_page.html
+---
+
+## Summary
+
+This policy and practice summary examines whether "Grow-Your-Own" style local recruitment produces more effective and longer-staying teachers. Drawing on Maryland data on more than 35,000 first-time teachers hired between 2012–13 and 2023–24, the brief considers three dimensions of localness (growing up locally, training locally, and working in local schools as an aide before teaching) and identifies several key findings:
+
+- Growing up in Maryland was not associated with meaningfully higher effectiveness, and teachers who returned to their home district were only slightly and imprecisely more effective.
+- Former instructional aides performed at least as well as other novice teachers, were more racially and ethnically diverse, and were more likely to remain in a Maryland K-12 role after five years.
+- Preparation pathway mattered more than localness: every prepared pathway outperformed young conditionally certified teachers in math, even though those teachers had the strongest local roots.
+- Local upbringing and local training were the strongest predictors of teachers staying in the same school or district.
+
+The brief concludes that local recruitment can complement, but not substitute for, high-quality teacher preparation.
+
+## Citation
+
+Dominguez-Mel, N., Morris, W. T., Montana, S., & Blazar, D. (2026). Teacher Localness, Early-Career Effectiveness, and Retention. Policy & Practice Summary. Annenberg Institute at Brown University. https://edworkingpapers.com/policy-practice-series/ai26-1501

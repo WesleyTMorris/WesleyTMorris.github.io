@@ -14,6 +14,9 @@ about:
     - icon: file-text
       text: Full Text
       href: https://edworkingpapers.com/ai26-1501
+    - icon: megaphone
+      text: Read the Policy Brief
+      href: /publications/briefs/Localness_brief_landing_page.html
 ---
 
 ## Abstract
