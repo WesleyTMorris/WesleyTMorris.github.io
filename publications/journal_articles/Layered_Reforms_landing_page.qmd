@@ -1,0 +1,25 @@
+---
+date: "November 12 2026"
+date-format: "MMMM YYYY"
+resources: layered_reforms.png
+title: "Layered Reforms and the Structure of Teacher Pay: Descriptive Evidence from Maryland"
+description: "Working paper on how Maryland's Blueprint teacher pay reforms rescaled, rather than restructured, teacher salaries."
+categories: "Working Paper"
+author: "Wesley T. Morris and David Blazar"
+image: layered_reforms.png
+about:
+  template: solana
+  image-shape: rounded
+  links:
+    - icon: file-text
+      text: Full Text
+      href: https://caldercenter.org/publications/layered-reforms-and-structure-teacher-pay-descriptive-evidence-maryland
+---
+
+## Abstract
+
+States increasingly reform teacher compensation through bundles that layer across-the-board raises, credential- and role-based bonuses, and salary floors. Yet research evaluates such reforms in isolation, focusing on pay levels rather than structure. We develop a framework classifying reforms by how they act on the sources of salary variation—rescaling, introducing, or compressing variation—and apply it to Maryland's Blueprint, which enacted all three types between 2022 and 2026. Drawing on a 19-year statewide panel, we find the reforms rescaled rather than restructured pay: traditional drivers (e.g., experience, degrees) still dominate, premiums along them grew, and the $60,000 salary floor produced no detectable compression. Value-added models show reform dollars flowed partly to credentials unrelated to student achievement (e.g., master's degrees).
+
+## Citation
+
+Morris, W. T., & Blazar, D. (2026). Layered Reforms and the Structure of Teacher Pay: Descriptive Evidence from Maryland. (CALDER Working Paper No. 348-1126). National Center for Analysis of Longitudinal Data in Education Research. https://caldercenter.org/publications/layered-reforms-and-structure-teacher-pay-descriptive-evidence-maryland
