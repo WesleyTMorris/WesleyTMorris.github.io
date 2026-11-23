@@ -1,0 +1,25 @@
+---
+date: "November 23 2026"
+date-format: "MMMM YYYY"
+resources: aide_to_teacher.png
+title: "Aide-to-Teacher Pathways: Evidence From Maryland"
+description: "Working paper on how former instructional aides fare as new teachers in Maryland, and what aide-to-teacher pathways mean for schools' aide workforce."
+categories: "Working Paper"
+author: "Wesley T. Morris, Sarah Montana, Nicolas Dominguez-Mel, and David Blazar"
+image: aide_to_teacher.png
+about:
+  template: solana
+  image-shape: rounded
+  links:
+    - icon: file-text
+      text: Full Text
+      href: https://edworkingpapers.com/ai26-1649
+---
+
+## Abstract
+
+Instructional aides are a promising but understudied source of new teachers. Using 17 years of administrative data from Maryland, we compare novice teachers with and without prior aide experience. Former aides are older, more racially diverse, and far more likely to hold special education endorsements. Their students achieve at least as well as those of other novices, and they are substantially more likely to remain in teaching, with the largest retention advantages among conditionally licensed and Black teachers. Schools lose roughly one aide position for every three to four aides who become teachers, far less than when aides move between schools. Investing in aide-to-teacher pathways can strengthen teacher recruitment, retention, and diversity with little risk of depleting the aide workforce.
+
+## Citation
+
+Morris, W. T., Montana, S., Dominguez-Mel, N., & Blazar, D. (2026). Aide-to-Teacher Pathways: Evidence From Maryland. (EdWorkingPaper No. 26-1649). Annenberg Institute at Brown University. https://doi.org/10.26300/y1rj-sg72
