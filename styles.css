@@ -549,3 +549,10 @@ a {
 a:hover {
   color: #C4952A;
 }
+
+/* Placeholder link buttons (e.g., "Policy Brief (Coming Soon)") */
+a.about-link[href$="#"] {
+  opacity: 0.5 !important;
+  pointer-events: none !important;
+  cursor: default;
+}

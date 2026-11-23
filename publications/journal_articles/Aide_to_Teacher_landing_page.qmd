@@ -14,6 +14,9 @@ about:
     - icon: file-text
       text: Full Text
       href: https://edworkingpapers.com/ai26-1649
+    - icon: file-earmark-text
+      text: Policy Brief (Coming Soon)
+      href: "#"
 ---
 
 ## Abstract

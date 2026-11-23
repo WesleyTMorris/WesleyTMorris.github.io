@@ -14,6 +14,9 @@ about:
     - icon: file-text
       text: Full Text
       href: https://caldercenter.org/publications/layered-reforms-and-structure-teacher-pay-descriptive-evidence-maryland
+    - icon: file-earmark-text
+      text: Policy Brief (Coming Soon)
+      href: "#"
 ---
 
 ## Abstract
